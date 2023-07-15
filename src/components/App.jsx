@@ -74,8 +74,6 @@ export class App extends Component {
         thisFilter
       );
     }
-
-    console.log(this.state);
   }
   render() {
     return (
