@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 const ImageGalleryItem = ({ image, openModal }) => {
   const { largeImageURL, webformatURL, tags } = image;
   const clickHandler = () => {
@@ -12,5 +11,4 @@ const ImageGalleryItem = ({ image, openModal }) => {
     </li>
   );
 };
-ImageGalleryItem.propTypes = {};
 export default ImageGalleryItem;

@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 const Searchbar = ({ addToFilter, filter }) => {
   const submitForm = e => {
     e.preventDefault();
@@ -28,9 +27,6 @@ const Searchbar = ({ addToFilter, filter }) => {
       </form>
     </div>
   );
-};
-Searchbar.propTypes = {
-  searchValue: PropTypes.string,
 };
 
 export default Searchbar;

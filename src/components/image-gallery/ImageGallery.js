@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types'
 import ImageGalleryItem from './ImageGalleryItem';
 
 const ImageGallery = ({ images, openModal }) => {
@@ -10,6 +9,5 @@ const ImageGallery = ({ images, openModal }) => {
     </ul>
   );
 };
-ImageGallery.propTypes = {};
 
 export default ImageGallery;
