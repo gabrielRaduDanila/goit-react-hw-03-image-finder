@@ -66,7 +66,15 @@ export class App extends Component {
     const thisImagesLength = this.state.images.length;
     const prevFilter = prevState.filter;
     const thisFilter = this.state.filter;
-    this.addMovies(prevImagesLength, thisImagesLength, prevFilter, thisFilter);
+    if (this.state.modalIsVisible === prevState.modalIsVisible) {
+      this.addMovies(
+        prevImagesLength,
+        thisImagesLength,
+        prevFilter,
+        thisFilter
+      );
+    }
+
     console.log(this.state);
   }
   render() {
